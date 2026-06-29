@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Roboto:wght@400;500&display=swap');
+
+body {
+    width: 75%;
+    margin: auto;
+
+    font-family: 'Roboto', sans-serif;
+
+    background-color: whitesmoke;
+    background-image: url("../img/coffee_bean.png");
+    background-repeat: repeat;
+}
+
+.header {
+    text-align: center;
+}
+
+.header img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.main {
+    width: 100%;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: #5C3B1E;
+}
+
+p {
+    line-height: 1.6;
+}
+
+a {
+    color: #6F4E37;
+    text-decoration: none;
+}
